@@ -1,5 +1,5 @@
-# Ignore Composer vendor dir (pokud bundle nepoužívá vendor)
-vendor/
+
+
 
 # Ignore IDE / editor files
 .idea/
@@ -9,6 +9,11 @@ vendor/
 .DS_Store
 Thumbs.db
 
-# Ignore test output (pokud bys mìl)
 coverage/
 .phpunit.result.cache
+
+# Ignore Composer files
+vendor/
+php.bat
+composer.lock
+composer.phar
