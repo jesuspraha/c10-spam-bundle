@@ -1,0 +1,14 @@
+# Ignore Composer vendor dir (pokud bundle nepoužívá vendor)
+vendor/
+
+# Ignore IDE / editor files
+.idea/
+.vscode/
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore test output (pokud bys mìl)
+coverage/
+.phpunit.result.cache

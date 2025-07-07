@@ -1,0 +1,8 @@
+# Ignore local files when distributing as Composer package
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/README.md export-ignore
+/CHANGELOG.md export-ignore
+/LICENSE export-ignore
+
+# Keep src/ and composer.json always

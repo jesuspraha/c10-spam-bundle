@@ -1,0 +1,18 @@
+{
+  "name": "c10/spam-bundle",
+  "type": "symfony-bundle",
+  "description": "C10 Spam Classifier API Bundle",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "C10\\SpamBundle\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "symfony/http-client": "^5.4 || ^6.0",
+    "symfony/dependency-injection": "^5.4 || ^6.0",
+    "symfony/config": "^5.4 || ^6.0",
+    "symfony/http-kernel": "^5.4 || ^6.0"
+  }
+}
